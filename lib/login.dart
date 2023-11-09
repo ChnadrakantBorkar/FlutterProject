@@ -4,7 +4,7 @@ void main() {
   runApp(const MyApp());
 }
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatefulWidget {  // error
   const MyApp({Key? key}) : super(key: key);
 
   _MyAppState CreateState() => _MyAppState();
